@@ -1,16 +1,95 @@
-# React + Vite
+🌍 Excursion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple promotional landing page built using React and Vite, created as part of the Codecademy Junior full stack java devlopment course (Excursion Project).
+The page showcases a fictional travel guide app that helps users discover hidden places around the world.
 
-Currently, two official plugins are available:
+<br>
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+GitHub Pages:
+👉 https://omhankare.github.io/Excursion/
 
-## React Compiler
+<br>
+📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The site displays:
 
-## Expanding the ESLint configuration
+A hero section with a title and download link
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A promotional video displayed inside a phone frame
+
+A “Personal Travel Guide” info section
+
+A campsite image
+
+Footer with “Coming Soon” message
+
+<br>
+🛠️ Tech Stack
+
+React (JSX)
+
+Vite
+
+HTML / CSS
+
+JavaScript
+
+<br>
+📁 Project Structure <br>
+Excursion/ <br>
+│── public/ <br>
+│   ├── camp.jpg <br>
+│   ├── excursion.mp4 <br>
+│   ├── phone.png <br>
+│   └── vite.svg <br>
+│ <br>
+│── src/ <br>
+│   ├── assets/ <br>
+│   ├── App.css <br>
+│   ├── App.jsx <br>
+│   ├── index.css <br>
+│   └── main.jsx <br>
+│ <br>
+│── index.html <br>
+│── package.json <br>
+│── vite.config.js <br>
+│── README.md <br>
+
+<br>
+▶️ Run the Project Locally <br>
+1. Install dependencies
+npm install
+
+2. Start development server
+npm run dev
+
+3. Build for production
+npm run build
+
+4. Preview build
+npm run preview
+
+<br>
+🌐 Deployment (GitHub Pages)
+
+Build the project
+
+npm run build
+
+
+Push your repository
+
+In GitHub → Settings → Pages, select the branch where your build is stored
+
+Save and wait for deployment
+
+<br>
+🎓 Credits
+
+This is a Codecademy Project – Excursion, recreated using React + Vite by Om Krishna Hankare.
+
+<br>
+📬 Contact
+Om Krishna Hankare
+📧 omhankare29@gmail.com
